@@ -1,0 +1,14 @@
+{
+  "name": "Post to Hangouts Chat",
+  "version": "0.1",
+  "description": "webhook post to Hangouts Chat",
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+      "default_icon": "icon1.png",
+      "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "manifest_version": 2
+}

@@ -5,8 +5,8 @@
 'use strict';
 
 var show = function(out) {
-  $('#sk-fading-circle').fadeOut("fast");	
-  $('#view').text(out).delay(2000).fadeIn("slow");;
+  $('#view').fadeOut("normal");	
+  $('#view').text(out).fadeIn("slow");;
 };
 
 $(function() {

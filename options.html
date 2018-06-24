@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <meta charset="utf-8">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.1.2/css/bulma.css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <meta charset="utf-8">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="css/milligram.min.css">
+    <link rel="stylesheet" href="https://milligram.github.io/styles/main.css">
   </head>
   <body>
-      Option Page
-      <p>
-          Webhook URL: <input id="Webhook_url" type="text" style="width:90%" />
-      </p>
-      <button id="save">Save</button>
-      <script src="js/options.js"></script>
+    <form>
+      <fieldset>
+        <h3>Option Page</h3>
+        <label for="Webhook_url">Webhook URL</label>
+        <input type="text" placeholder="https://chat.googleapis.com/v1/spaces/XXXXXXX" id="Webhook_url">
+        <input class="button-primary" type="submit" value="Save" id="save">
+        <script src="js/options.js"></script>
+      </fieldset>
+    </form>
   </body>
 </html>
